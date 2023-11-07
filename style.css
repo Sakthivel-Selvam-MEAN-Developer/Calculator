@@ -1,0 +1,250 @@
+.calculator{
+    height: 100vh;
+}
+
+input{
+    width: 100%;
+    background: #08ecc0 !important;
+    border-radius: 10px 10px 0 0;
+    font-size: 2em;
+    padding: 10px 10px 5px 10px;
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 45px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    box-shadow: 0px 2px 6px 0.5px #000000a8;;
+    padding: 10px 0;
+    vertical-align: middle;
+    margin: 6px;
+    transition: all 100ms linear;
+}
+.input-tab{
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(1deg, #0076ffb8, #00ffbe);
+}
+a:active{
+    box-shadow: 0px 1px 2px .5px #000000a8;
+}
+.calculator-body{
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    animation: background-anime 1s linear infinite;
+}
+
+
+@media (max-width:300px) {
+    .calculator-body{
+        max-width: 270px;
+    }
+}
+
+@keyframes background-anime {
+    0%{
+        background:linear-gradient(3.6deg, transparent, #00ffbe, transparent);
+    }1%{
+        background:linear-gradient(7.2deg, transparent, #00ffbe, transparent);
+    }2%{
+        background:linear-gradient(10.8deg, transparent, #00ffbe, transparent);   
+    }4%{
+        background:linear-gradient(14.4deg, transparent, #00ffbe, transparent);
+    }5%{
+        background:linear-gradient(18deg, transparent, #00ffbe, transparent);
+    }6%{
+        background:linear-gradient(21.6deg, transparent, #00ffbe, transparent);
+    }7%{
+        background:linear-gradient(25.2deg, transparent, #00ffbe, transparent);
+    }8%{
+        background:linear-gradient(28.8deg, transparent, #00ffbe, transparent);
+    }9%{
+        background:linear-gradient(32.4deg, transparent, #00ffbe, transparent);
+    }10%{
+        background:linear-gradient(36deg, transparent, #00ffbe, transparent);
+    }11%{
+        background:linear-gradient(39.6deg, transparent, #00ffbe, transparent);
+    }12%{
+        background:linear-gradient(43.2deg, transparent, #00ffbe, transparent);
+    }13%{
+        background:linear-gradient(46.8deg, transparent, #00ffbe, transparent);
+    }14%{
+        background:linear-gradient(50.4deg, transparent, #00ffbe, transparent);
+    }15%{
+        background:linear-gradient(54deg, transparent, #00ffbe, transparent);
+    }16%{
+        background:linear-gradient(57.6deg, transparent, #00ffbe, transparent);
+    }17%{
+        background:linear-gradient(61.2deg, transparent, #00ffbe, transparent);
+    }18%{
+        background:linear-gradient(64.8deg, transparent, #00ffbe, transparent);
+    }19%{
+        background:linear-gradient(68.4deg, transparent, #00ffbe, transparent);
+    }20%{
+        background:linear-gradient(72deg, transparent, #00ffbe, transparent);
+    }21%{
+        background:linear-gradient(75.6deg, transparent, #00ffbe, transparent);
+    }22%{
+        background:linear-gradient(79.2deg, transparent, #00ffbe, transparent);
+    }23%{
+        background:linear-gradient(82deg, transparent, #00ffbe, transparent);
+    }24%{
+        background:linear-gradient(86.4deg, transparent, #00ffbe, transparent);
+    }25%{
+        background:linear-gradient(90deg, transparent, #00ffbe, transparent);
+    }26%{
+        background:linear-gradient(93.6deg, transparent, #00ffbe, transparent);
+    }27%{
+        background:linear-gradient(97.2deg, transparent, #00ffbe, transparent);
+    }28%{
+        background:linear-gradient(100.8deg, transparent, #00ffbe, transparent);
+    }29%{
+        background:linear-gradient(104.4deg, transparent, #00ffbe, transparent);
+    }30%{
+        background:linear-gradient(108deg, transparent, #00ffbe, transparent);
+    }31%{
+        background:linear-gradient(111.6deg, transparent, #00ffbe, transparent);
+    }32%{
+        background:linear-gradient(115.4deg, transparent, #00ffbe, transparent);
+    }33%{
+        background:linear-gradient(118.8deg, transparent, #00ffbe, transparent);
+    }34%{
+        background:linear-gradient(122.4deg, transparent, #00ffbe, transparent);
+    }35%{
+        background:linear-gradient(126deg, transparent, #00ffbe, transparent);
+    }36%{
+        background:linear-gradient(129.6deg, transparent, #00ffbe, transparent);
+    }37%{
+        background:linear-gradient(133.2deg, transparent, #00ffbe, transparent);
+    }38%{
+        background:linear-gradient(136.8deg, transparent, #00ffbe, transparent);
+    }39%{
+        background:linear-gradient(140.4deg, transparent, #00ffbe, transparent);
+    }40%{
+        background:linear-gradient(144deg, transparent, #00ffbe, transparent);
+    }41%{
+        background:linear-gradient(147.6deg, transparent, #00ffbe, transparent);
+    }42%{
+        background:linear-gradient(151.2deg, transparent, #00ffbe, transparent);
+    }43%{
+        background:linear-gradient(154.8deg, transparent, #00ffbe, transparent);
+    }44%{
+        background:linear-gradient(158.4deg, transparent, #00ffbe, transparent);
+    }45%{
+        background:linear-gradient(162deg, transparent, #00ffbe, transparent);
+    }46%{
+        background:linear-gradient(165.6deg, transparent, #00ffbe, transparent);
+    }47%{
+        background:linear-gradient(169.2deg, transparent, #00ffbe, transparent);
+    }48%{
+        background:linear-gradient(172.8deg, transparent, #00ffbe, transparent);
+    }49%{
+        background:linear-gradient(176.4deg, transparent, #00ffbe, transparent);
+    }50%{
+        background:linear-gradient(180deg, transparent, #00ffbe, transparent);
+    }51%{
+        background:linear-gradient(183.6deg, transparent, #00ffbe, transparent);
+    }52%{
+        background:linear-gradient(187.2deg, transparent, #00ffbe, transparent);
+    }53%{
+        background:linear-gradient(190.8deg, transparent, #00ffbe, transparent);
+    }54%{
+        background:linear-gradient(194.4deg, transparent, #00ffbe, transparent);
+    }55%{
+        background:linear-gradient(198deg, transparent, #00ffbe, transparent);
+    }56%{
+        background:linear-gradient(201.6deg, transparent, #00ffbe, transparent);
+    }57%{
+        background:linear-gradient(205.2deg, transparent, #00ffbe, transparent);
+    }58%{
+        background:linear-gradient(208.8deg, transparent, #00ffbe, transparent);
+    }59%{
+        background:linear-gradient(212.4deg, transparent, #00ffbe, transparent);
+    }60%{
+        background:linear-gradient(216deg, transparent, #00ffbe, transparent);
+    }61%{
+        background:linear-gradient(219.6deg, transparent, #00ffbe, transparent);
+    }62%{
+        background:linear-gradient(223.2deg, transparent, #00ffbe, transparent);
+    }63%{
+        background:linear-gradient(226.8deg, transparent, #00ffbe, transparent);
+    }64%{
+        background:linear-gradient(230.4deg, transparent, #00ffbe, transparent);
+    }65%{
+        background:linear-gradient(234deg, transparent, #00ffbe, transparent);
+    }66%{
+        background:linear-gradient(237.6deg, transparent, #00ffbe, transparent);
+    }67%{
+        background:linear-gradient(241.2deg, transparent, #00ffbe, transparent);
+    }68%{
+        background:linear-gradient(244.8deg, transparent, #00ffbe, transparent);
+    }69%{
+        background:linear-gradient(248.4deg, transparent, #00ffbe, transparent);
+    }70%{
+        background:linear-gradient(252deg, transparent, #00ffbe, transparent);
+    }72%{
+        background:linear-gradient(255.6deg, transparent, #00ffbe, transparent);
+    }73%{
+        background:linear-gradient(262.2deg, transparent, #00ffbe, transparent);
+    }74%{
+        background:linear-gradient(266.4deg, transparent, #00ffbe, transparent);
+    }75%{
+        background:linear-gradient(270deg, transparent, #00ffbe, transparent);
+    }76%{
+        background:linear-gradient(273.6deg, transparent, #00ffbe, transparent);
+    }77%{
+        background:linear-gradient(277.2deg, transparent, #00ffbe, transparent);
+    }78%{
+        background:linear-gradient(280.8deg, transparent, #00ffbe, transparent);
+    }79%{
+        background:linear-gradient(284.4deg, transparent, #00ffbe, transparent);
+    }80%{
+        background:linear-gradient(288deg, transparent, #00ffbe, transparent);
+    }81%{
+        background:linear-gradient(291.6deg, transparent, #00ffbe, transparent);
+    }82%{
+        background:linear-gradient(295.2deg, transparent, #00ffbe, transparent);
+    }83%{
+        background:linear-gradient(298.8deg, transparent, #00ffbe, transparent);
+    }84%{
+        background:linear-gradient(302.4deg, transparent, #00ffbe, transparent);
+    }85%{
+        background:linear-gradient(306deg, transparent, #00ffbe, transparent);
+    }86%{
+        background:linear-gradient(309.6deg, transparent, #00ffbe, transparent);
+    }87%{
+        background:linear-gradient(313.2deg, transparent, #00ffbe, transparent);
+    }88%{
+        background:linear-gradient(316.8deg, transparent, #00ffbe, transparent);
+    }89%{
+        background:linear-gradient(320.4deg, transparent, #00ffbe, transparent);
+    }90%{
+        background:linear-gradient(324deg, transparent, #00ffbe, transparent);
+    }91%{
+        background:linear-gradient(327.6deg, transparent, #00ffbe, transparent);
+    }92%{
+        background:linear-gradient(331.2deg, transparent, #00ffbe, transparent);
+    }93%{
+        background:linear-gradient(334.8deg, transparent, #00ffbe, transparent);
+    }94%{
+        background:linear-gradient(338.4deg, transparent, #00ffbe, transparent);
+    }95%{
+        background:linear-gradient(342deg, transparent, #00ffbe, transparent);
+    }96%{
+        background:linear-gradient(345.6deg, transparent, #00ffbe, transparent);
+    }97%{
+        background:linear-gradient(349.2deg, transparent, #00ffbe, transparent);
+    }98%{
+        background:linear-gradient(352.8deg, transparent, #00ffbe, transparent);
+    }99%{
+        background:linear-gradient(356.4deg, transparent, #00ffbe, transparent);
+    }100%{
+        background:linear-gradient(360deg, transparent, #00ffbe, transparent);
+    }
+}
